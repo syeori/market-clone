@@ -1,0 +1,59 @@
+header {
+  margin-top: 20px;
+  border-bottom: 1px solid #dededf;
+  padding-bottom: 10px;
+}
+
+.info-bar {
+  display: flex;
+  justify-content: space-between; /*양쪽 끝으로 붙이기*/
+  align-items: center;
+  padding: 0 10px 0 10px; /*양끝에 간격 띄우기*/
+}
+
+.info-bar__time {
+  font-size: 15px;
+  font-weight: bold; /*글씨 두껍게*/
+}
+
+.info-bar__icons img {
+  width: 20px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.menu-bar__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.menu-bar__location img {
+  width: 15px;
+}
+
+.menu-bar__location-icon {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 아래화살표를 가운데 배치 */
+}
+
+.menu-bar__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar__icons img {
+  width: 25px;
+  margin-right: 10px; /* 아이콘 오른쪽에 공백을 줘서 간격 늘이기 */
+}

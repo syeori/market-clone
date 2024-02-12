@@ -1,0 +1,36 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw; /*화면의 너비를 100프로 채움*/
+  padding-bottom: 30px; /* 화면 아래쪽 띄우기 */
+  padding-top: 20px;
+  border-top: 1px solid #eaeaea;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-icons {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column; /*아이콘이랑 글자를 위아래로 배치*/
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 10px;
+  cursor: pointer; /*마우스올리면 손가락으로 바뀜*/
+}
+
+.footer-icons__desc {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  transform: scale(0.7);
+}
+
+.footer-icons__img {
+  width: 30px;
+}
